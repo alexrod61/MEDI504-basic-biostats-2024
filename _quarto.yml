@@ -5,6 +5,7 @@ project:
 website:
   title: "The University of British Columbia"
   repo-url: https://github.com/alexrod61/MEDI504-basic-biostats-2024
+  repo-actions: [source]
   navbar:
     left:
       - href: index.qmd
