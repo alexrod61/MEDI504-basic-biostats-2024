@@ -1,0 +1,160 @@
+[
+  {
+    "objectID": "slides/MEDI504-basic-biostats-2024.html#something-about-me",
+    "href": "slides/MEDI504-basic-biostats-2024.html#something-about-me",
+    "title": "Lecture 3",
+    "section": "Something about me…",
+    "text": "Something about me…\n\n\nI am an Assistant Professor of Teaching in the Department of Statistics at UBC.\nMy graduate teaching is focused on the Master of Data Science, specifically in statistics.\nMy undergraduate teaching has been mainly focused on scientific communication.\nMy website: https://alexrod.netlify.app\nMy email: alexrod@stat.ubc.ca",
+    "crumbs": [
+      "Home",
+      "Slides",
+      "Lecture 3"
+    ]
+  },
+  {
+    "objectID": "slides/MEDI504-basic-biostats-2024.html#module-learning-objectives",
+    "href": "slides/MEDI504-basic-biostats-2024.html#module-learning-objectives",
+    "title": "Lecture 3",
+    "section": "1. Module learning objectives",
+    "text": "1. Module learning objectives\nBy the end of this module, you should be able to:\n\n\nIdentify the different types of data analysis questions and categorize a question into the correct type.\nIdentify a suitable analysis type to answer an inferential question, given the data set at hand.\nUse the R programming language to carry out analysis to answer inferential question.\nInterpret and communicate the results of the analysis from an inferential question.",
+    "crumbs": [
+      "Home",
+      "Slides",
+      "Lecture 3"
+    ]
+  },
+  {
+    "objectID": "slides/MEDI504-basic-biostats-2024.html#what-is-the-question",
+    "href": "slides/MEDI504-basic-biostats-2024.html#what-is-the-question",
+    "title": "Lecture 3",
+    "section": "2. What is the question?",
+    "text": "2. What is the question?\n\n\n\nThe data analysis question type flow chart (Leek and Peng, 2020).",
+    "crumbs": [
+      "Home",
+      "Slides",
+      "Lecture 3"
+    ]
+  },
+  {
+    "objectID": "slides/MEDI504-basic-biostats-2024.html#so-you-know-the-type-of-question",
+    "href": "slides/MEDI504-basic-biostats-2024.html#so-you-know-the-type-of-question",
+    "title": "Lecture 3",
+    "section": "3. So you know the type of question…",
+    "text": "3. So you know the type of question…",
+    "crumbs": [
+      "Home",
+      "Slides",
+      "Lecture 3"
+    ]
+  },
+  {
+    "objectID": "slides/MEDI504-basic-biostats-2024.html#practice",
+    "href": "slides/MEDI504-basic-biostats-2024.html#practice",
+    "title": "Lecture 3",
+    "section": "4. Practice",
+    "text": "4. Practice",
+    "crumbs": [
+      "Home",
+      "Slides",
+      "Lecture 3"
+    ]
+  },
+  {
+    "objectID": "slides/MEDI504-basic-biostats-2024.html#the-statistical-landscape-in-r",
+    "href": "slides/MEDI504-basic-biostats-2024.html#the-statistical-landscape-in-r",
+    "title": "Lecture 3",
+    "section": "5. The statistical landscape in R",
+    "text": "5. The statistical landscape in R\n\nLet us check the {tidyverse} collection of R packages designed for data science.",
+    "crumbs": [
+      "Home",
+      "Slides",
+      "Lecture 3"
+    ]
+  },
+  {
+    "objectID": "slides/MEDI504-basic-biostats-2024.html#example-of-an-inferential-analysis-in-r",
+    "href": "slides/MEDI504-basic-biostats-2024.html#example-of-an-inferential-analysis-in-r",
+    "title": "Lecture 3",
+    "section": "6. Example of an inferential analysis in R",
+    "text": "6. Example of an inferential analysis in R\n\nIs sexual activity associated with the longevity of male fruit flies?\n\n\nWhat kind of question is this?\n\nInferential!",
+    "crumbs": [
+      "Home",
+      "Slides",
+      "Lecture 3"
+    ]
+  },
+  {
+    "objectID": "slides/MEDI504-basic-biostats-2024.html#data",
+    "href": "slides/MEDI504-basic-biostats-2024.html#data",
+    "title": "Lecture 3",
+    "section": "6.1. Data",
+    "text": "6.1. Data\n\nFruit flies were divided randomly into groups of 13 each.\nThe response was the longevity of the fruit fly in days.\nOne group was kept solitary (isolated), while another was given 8 virgin females per day (high).\n\n\n\nWe will use two R libraries: {tidyverse} and {faraway} (where the data is available).\n\n\nlibrary(tidyverse)\nlibrary(faraway)",
+    "crumbs": [
+      "Home",
+      "Slides",
+      "Lecture 3"
+    ]
+  },
+  {
+    "objectID": "slides/MEDI504-basic-biostats-2024.html#so-how-should-we-analyze-this-data",
+    "href": "slides/MEDI504-basic-biostats-2024.html#so-how-should-we-analyze-this-data",
+    "title": "Lecture 3",
+    "section": "6.2. So how should we analyze this data?",
+    "text": "6.2. So how should we analyze this data?\n\nWhat is our response variable? What kind of data is it?\n\n\n\nThe response is variable longevity, and it is numeric.\n\n\n\n\nWhat is our explanatory variable? What kind of data is it?\n\n\n\n\nThe response is variable activity, and it is categorical.",
+    "crumbs": [
+      "Home",
+      "Slides",
+      "Lecture 3"
+    ]
+  },
+  {
+    "objectID": "slides/MEDI504-basic-biostats-2024.html#summary",
+    "href": "slides/MEDI504-basic-biostats-2024.html#summary",
+    "title": "Lecture 3",
+    "section": "7. Summary",
+    "text": "7. Summary\n\n\nIdentify the kind of question.\nLook at the data.\nIdentify a suitable statistical or machine learning method for your question and data.\nCreate a visualization.\nApply your statistical or machine learning method.\nMaybe, create another visualization.\nInterpret and communicate your assumptions and results.",
+    "crumbs": [
+      "Home",
+      "Slides",
+      "Lecture 3"
+    ]
+  },
+  {
+    "objectID": "slides/MEDI504-basic-biostats-2024.html#questions",
+    "href": "slides/MEDI504-basic-biostats-2024.html#questions",
+    "title": "Lecture 3",
+    "section": "Questions?",
+    "text": "Questions?\n\n\n\n\n\n\nAll the source files of these slides are in this public GitHub repo: https://github.com/alexrod61/MEDI504-basic-biostats-2024.",
+    "crumbs": [
+      "Home",
+      "Slides",
+      "Lecture 3"
+    ]
+  },
+  {
+    "objectID": "slides/MEDI504-basic-biostats-2024.html#reference",
+    "href": "slides/MEDI504-basic-biostats-2024.html#reference",
+    "title": "Lecture 3",
+    "section": "Reference",
+    "text": "Reference\n\nWolberg,W.H., and Mangasarian,O.L. (1990). Multisurface method of pattern separation for medical diagnosis applied to breast cytology. In Proceedings of the National Academy of Sciences, 87, 9193-9196.\n\n\n\n\n\nMEDI 504A - Emerging Topics in Experimental Medicine",
+    "crumbs": [
+      "Home",
+      "Slides",
+      "Lecture 3"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MEDI 504A - Emerging Topics in Experimental Medicine",
+    "section": "",
+    "text": "MEDI504 is a Special Topics course designed to develop literacy and conceptual understanding of data science to enable effective collaboration with data scientists as related to health research spanning the basic, clinical, population and health services.\n\n\nLecturer: G. Alexi Rodríguez-Arelis, PhD\nalexrod@stat.ubc.ca\nAffiliation: Assistant Professor of Teaching, Department of Statistics, UBC\n\n\nBy the end of this module, students should be able to:\n\nIdentify the different types of data analysis questions and categorize a question into the correct type.\nIdentify a suitable analysis type to answer an inferential question, given the data set at hand.\nUse the R programming language to carry out analysis to answer inferential question.\nInterpret and communicate the results of the analysis from an inferential question.\n\n\nThis website contains a Quarto presentation."
+  },
+  {
+    "objectID": "index.html#lecture-3-introduction-to-biostatistics",
+    "href": "index.html#lecture-3-introduction-to-biostatistics",
+    "title": "MEDI 504A - Emerging Topics in Experimental Medicine",
+    "section": "",
+    "text": "Lecturer: G. Alexi Rodríguez-Arelis, PhD\nalexrod@stat.ubc.ca\nAffiliation: Assistant Professor of Teaching, Department of Statistics, UBC\n\n\nBy the end of this module, students should be able to:\n\nIdentify the different types of data analysis questions and categorize a question into the correct type.\nIdentify a suitable analysis type to answer an inferential question, given the data set at hand.\nUse the R programming language to carry out analysis to answer inferential question.\nInterpret and communicate the results of the analysis from an inferential question.\n\n\nThis website contains a Quarto presentation."
+  }
+]
